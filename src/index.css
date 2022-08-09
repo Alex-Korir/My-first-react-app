@@ -2,12 +2,16 @@
   width: 37.5em;
   height: 25em;
   border-radius: 1em;
+  padding: 30px;
 
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: skyblue;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: gray;
 
   display: flex;
   justify-content: center;
@@ -23,4 +27,12 @@
 }
 .butto:hover {
   background-color: darkgray;
+}
+h4 {
+  background-color: white;
+  border: none;
+  width: 37em;
+  padding: 0.4em 0.1em;
+  text-align: center;
+  border-radius: 10px;
 }
